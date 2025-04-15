@@ -8,7 +8,7 @@ function buttonClick() {
 	header.id = "status";
 
 	//replace child
-	statusPara.parentNode.replaceChild(header, statusPara);
-	
+	// statusPara.parentNode.replaceChild(header, statusPara);
+	statusPara.appendChild(header);
 	
 }
