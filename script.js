@@ -5,7 +5,7 @@ function buttonClick() {
 	
 	const header = document.createElement("h1");
 	header.textContent = "Entered Metaverse"
-	// header.id = "status";
+	header.id = "status";
 
 	//replace child
 	statusPara.parentNode.replaceChild(header, statusPara);
